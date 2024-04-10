@@ -261,11 +261,21 @@ nav a:hover {
     border-bottom: 1px solid #737373;
 }
 
+#guidelines .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 #main #guidelines h2 {
     text-align: center;
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     font-size: 2em;
+
+}
+
+#guidelines .container h2 {
+    grid-column: 1 / -1;
 }
 
 #main #guidelines h3 {
@@ -277,9 +287,10 @@ nav a:hover {
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     font-size: 1.5em;
+    grid-column: 1 / -1;
 }
 
-#main #guidelines p {
+/* #main #guidelines p {
     width: 90%;
     margin: 0 auto;
     padding: 10px 20px;
@@ -287,6 +298,58 @@ nav a:hover {
     line-height: 1.4;
     font-family: "Poppins", sans-serif;
     line-height: 1.7;
+    margin-left: 45px;
+} */
+
+#guidelines .container p:nth-of-type(1) {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.7;
+    margin-left: 45px;
+    grid-column: 1 / -1;
+}
+
+#guidelines .container p:nth-of-type(2) {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.7;
+    margin-left: 45px;
+    grid-column: 1;
+    text-align: justify;
+}
+
+#guidelines .container p:nth-of-type(3) {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.7;
+    margin-left: 45px;
+    grid-column: 2;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+#guidelines .container p:nth-of-type(4) {
+    grid-column: 1 / -1;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.7;
+    margin-left: 45px;
 }
 
 #main #guidelines a {
@@ -294,6 +357,7 @@ nav a:hover {
     font-family: "Poppins", sans-serif;
     border-bottom: 2px solid;
     text-decoration: none;
+    width: 45%;
 }
 
 #main #guidelines .link-guidelines {
@@ -313,6 +377,8 @@ nav a:hover {
 #main #guidelines .link-guidelines:hover {
     background-color: #0356c9;
 }
+
+/*---------------- Contribute Page -------------------*/
 
 #main #contribute {
     width: 80%;
