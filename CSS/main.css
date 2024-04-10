@@ -77,7 +77,7 @@ header a {
     color: beige;
 }
 
-.link-github {
+header .link-github {
     display: inline-block;
     padding: 8px 15px;
     background-color: #0366d6;
@@ -91,7 +91,7 @@ header a {
     background-color: #0356c9;
 }
 
-.link-github svg {
+header .link-github svg {
     width: 20px;
     height: 20px;
     vertical-align: middle;
@@ -503,6 +503,13 @@ nav a:hover {
     line-height: 1.6;
 }
 
+.profile .container ul li a {
+    color: #024782;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 2px solid;
+    text-decoration: none;
+}
+
 
 .profile .container a[href="/styles/css/main-stage.css"] {
     font-family: "Poppins", sans-serif;
@@ -522,6 +529,7 @@ nav a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 #styles .container h2 {
@@ -599,3 +607,51 @@ nav a:hover {
 
 
 /*---------------- Footer -------------------*/
+.page-footer {
+    background-color: #ccc;
+}
+
+.page-footer .container p {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.4;
+    margin-left: 20px;
+    padding: 10px 5px;
+}
+
+.page-footer .container p a {
+    color: #024782;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 2px solid;
+    text-decoration: none;
+}
+
+.page-footer .container ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.page-footer .container ul li {
+    padding: 5px;
+}
+
+.link-twittercontact,
+.page-footer .link-github,
+.link-rss,
+.link-support {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #3985B7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.page-footer .link-github svg {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    padding-right: 2px;
+    fill: #FFD700;
+}
