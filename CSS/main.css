@@ -20,7 +20,8 @@ body {
     background-color: #EBEBEB;
 }
 
-/*************** First Page ****************/
+
+/*-----------------------------  Header ------------------------------*/
 /* omit the link */
 .skip-link {
     display: none;
@@ -83,7 +84,6 @@ header a {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s;
     margin-right: 190px;
 }
 
@@ -100,7 +100,7 @@ header a {
     fill: #FFD700;
 }
 
-/*************** Nav Bar ***************/
+/*-------------------  Nav Bar ----------------------*/
 nav {
     width: 100%;
     display: flex;
@@ -134,24 +134,21 @@ nav a:hover {
     color: white;
 }
 
-/************* Content **************/
-#main {
-    background-color: aliceblue;
-
-}
-
+/*-----------------------------  Main ------------------------------*/
 #main #about {
-
     background-color: #3985B7;
     background-color: #fff;
     background-color: #EBEBEB;
 }
 
-/******** First Session ********/
+/*------------------ About Page ------------------*/
+/*------------ First Session ------------*/
 #main #about section:first-of-type {
     width: 80%;
     margin: 20px auto;
     background-color: #EBEBEB;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #737373;
 }
 
 #main #about section:first-of-type h2 {
@@ -163,12 +160,238 @@ nav a:hover {
 
 #main #about section:first-of-type p {
     width: 90%;
-    margin: 10px auto;
+    margin: 0 auto;
     padding: 10px 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.7;
+    font-family: "Poppins", sans-serif;
 }
 
-#main #about section:nth-of-type(2) {
-    background-color: lavender;
+#main #about section:first-of-type a {
+    color: #024782;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 2px solid;
+    text-decoration: none;
+}
 
+#main #about section:first-of-type blockquote {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    width: 75%;
+    margin: 15px auto;
+}
+
+#main #about section:first-of-type blockquote p::before,
+#main #about section:first-of-type blockquote p::after {
+    content: '"';
+    font-size: 2em;
+}
+
+#main #about section:first-of-type blockquote p::after {
+    float: right;
+}
+
+/*------------ Second Session ------------*/
+#main #about section:nth-of-type(2) {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #EBEBEB;
+    border-bottom: 4px dashed #024782;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #737373;
+}
+
+#main #about section:nth-of-type(2) h2 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+#main #about section:nth-of-type(2) p {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.7;
+}
+
+#main #about section:nth-of-type(2) a {
+    color: #024782;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 2px solid;
+    text-decoration: none;
+}
+
+#main #about section:nth-of-type(2) ul {
+    width: 90%;
+    margin: 10px auto;
+    padding: 5px 10px;
+}
+
+#main #about section:nth-of-type(2) ul li {
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #136CB0;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#main #about section:nth-of-type(2) ul li:hover {
+    color: #136CB0;
+    background-color: white;
+    /* background: linear-gradient(to bottom, #0366d6, #EBEBEB); */
+}
+
+/*------------------ Guidelines Page ------------------*/
+#main #guidelines {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #EBEBEB;
+    border-bottom: 4px dashed #024782;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #737373;
+}
+
+#main #guidelines h2 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+#main #guidelines h3 {
+    color: #024782;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-align: left;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+#main #guidelines p {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.7;
+}
+
+#main #guidelines a {
+    color: #024782;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 2px solid;
+    text-decoration: none;
+}
+
+#main #guidelines .link-guidelines {
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #136CB0;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 65px;
+}
+
+#main #guidelines .link-guidelines:hover {
+    background-color: #0356c9;
+}
+
+#main #contribute {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #EBEBEB;
+    border-bottom: 4px dashed #024782;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #737373;
+}
+
+#main #contribute h2 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+
+}
+
+#main #contribute h3 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-align: left;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #024782;
+}
+
+#main #contribute p {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.7;
+}
+
+#main #contribute a {
+    color: #024782;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 2px solid;
+    text-decoration: none;
+}
+
+#main #contribute ol {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    line-height: 1.8;
+    font-family: "Poppins", sans-serif;
+}
+
+#main #contribute #files a {
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #136CB0;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* #main #contribute #files a:first-of-type {
+    margin-left: 65px;
+} */
+
+#main #contribute #files a:hover {
+    background-color: #0356c9;
+}
+
+#main #contribute #files {
+    text-align: center;
+}
+
+#main #contribute #files h3 {
+    text-align: center;
+    padding-bottom: 15px;
 }
