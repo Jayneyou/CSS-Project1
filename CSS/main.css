@@ -64,7 +64,7 @@ header .container {
     width: 100%;
     height: auto;
     /* Image By "https://www.freepik.com/free-photo/dark-blue-marble-wave-background_15611712.htm#page=2&query=ocean%20png&position=0&from_view=keyword&track=ais&uuid=c15d55cd-c1aa-4894-b0b6-f4ff25c6dda3" */
-    background-image: url(https://github.com/Jayneyou/CSS-Project1/img/ocean-background.jpg);
+    background-image: url("https://github.com/Jayneyou/CSS-Project1/img/ocean-background.jpg");
     background-size: cover;
     text-align: center;
     padding-bottom: 2.5em;
@@ -387,7 +387,7 @@ nav a:hover {
     background-color: #024782;
     padding: 80px 50px;
     width: 30%;
-    background-image: url(https://github.com/Jayneyou/CSS-Project1/img/pic1.jpg);
+    background-image: url("https://github.com/Jayneyou/CSS-Project1/img/pic1.jpg");
     background-size: cover;
     font-family: "Poppins", sans-serif;
     border: 2px dashed #024782;
@@ -397,7 +397,7 @@ nav a:hover {
     width: 30%;
     background-color: #024782;
     padding: 80px 50px;
-    background-image: url(https://github.com/Jayneyou/CSS-Project1/img/pic2.jpg);
+    background-image: url("https://github.com/Jayneyou/CSS-Project1/img/pic2.jpg");
     background-size: cover;
     font-family: "Poppins", sans-serif;
     border: 2px dashed #024782;
@@ -407,7 +407,7 @@ nav a:hover {
     background-color: #024782;
     padding: 80px 50px;
     width: 30%;
-    background-image: url(https://github.com/Jayneyou/CSS-Project1/img/pic3.jpg);
+    background-image: url("https://github.com/Jayneyou/CSS-Project1/img/pic3.jpg");
     background-size: cover;
     font-family: "Poppins", sans-serif;
     border: 2px dashed #024782;
