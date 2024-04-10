@@ -526,4 +526,12 @@ nav a:hover {
     .page-footer .container ul {
         flex-direction: column;
     }
+
+    #styles .container .features {
+        padding: 10px 20px;
+    }
+
+    #styles .container .features li {
+        width: auto;
+    }
 }
